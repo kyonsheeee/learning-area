@@ -1,0 +1,46 @@
+/* .first {
+  font-size: 120%;
+  font-weight: bold;
+} */
+
+article p:first-child {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+a:link,
+a:visited {
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+article p::first-line {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+/* article p:first-child::first-line {
+  font-size: 120%;
+  font-weight: bold;
+} */
+
+/* .box::before {
+  content: "これは他のコンテンツの前に表示されます。";
+} */
+
+.box::after {
+  content: " ➥";
+}
+
+.box::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 1px solid black;
+}
