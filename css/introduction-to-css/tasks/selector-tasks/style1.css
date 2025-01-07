@@ -3,3 +3,15 @@ body {
 }
 
 /* Add styles here */
+h1 {
+  color: blue;
+}
+
+h2 {
+  background-color: blue;
+  color: #fff;
+}
+
+span {
+  font-size: 200%;
+}
