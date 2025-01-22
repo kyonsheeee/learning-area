@@ -1,0 +1,18 @@
+html {
+  font-size: 16px;
+}
+
+.ems li {
+  font-size: 1.3em;
+}
+
+.rems li {
+  font-size: 1.3rem;
+}
+
+p {
+  margin: 0;
+  background-image: repeating-linear-gradient(to top,
+      lightskyblue 0 2px,
+      transparent 2px 1lh);
+}
